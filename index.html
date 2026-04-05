@@ -1,0 +1,1508 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gulshan Sound Service & Jagran Party | Palwal, Haryana</title>
+<meta name="description" content="Palwal ka trusted Jagran Party aur Sound Service. Mata Ki Chowki, Bhagwati Jagran, Wedding Sound, Stage & Lighting. Call: 9253878882">
+<meta name="keywords" content="Jagran Party in Palwal, Mata Ki Chowki Palwal, Sound Service Palwal, Bhagwati Jagran Palwal, Jagran Palwal Haryana">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Hind:wght@300;400;500;600;700&family=Tiro+Devanagari+Hindi&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<style>
+  :root {
+    --gold: #FFD700;
+    --gold-light: #FFE566;
+    --gold-dark: #B8860B;
+    --saffron: #FF6B00;
+    --saffron-light: #FF8C42;
+    --red: #CC0000;
+    --red-dark: #8B0000;
+    --maroon: #6B0F1A;
+    --bg-dark: #0D0005;
+    --bg-layer1: #140008;
+    --bg-layer2: #1C000C;
+    --bg-card: rgba(30, 5, 15, 0.85);
+    --text-primary: #FFF5E0;
+    --text-secondary: #D4B483;
+    --text-muted: #A07040;
+    --border-gold: rgba(255, 215, 0, 0.25);
+    --glow-gold: 0 0 20px rgba(255, 215, 0, 0.3), 0 0 60px rgba(255, 165, 0, 0.1);
+    --glow-saffron: 0 0 20px rgba(255, 107, 0, 0.4);
+  }
+
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; font-size: 16px; }
+
+  body {
+    font-family: 'Hind', sans-serif;
+    background-color: var(--bg-dark);
+    color: var(--text-primary);
+    overflow-x: hidden;
+    line-height: 1.7;
+  }
+
+  /* ─── BACKGROUND TEXTURE ─── */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background:
+      radial-gradient(ellipse at 20% 20%, rgba(139, 0, 0, 0.12) 0%, transparent 50%),
+      radial-gradient(ellipse at 80% 80%, rgba(180, 100, 0, 0.10) 0%, transparent 50%),
+      radial-gradient(ellipse at 50% 50%, rgba(100, 0, 30, 0.08) 0%, transparent 70%);
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; position: relative; z-index: 1; }
+
+  /* ─── NAVBAR ─── */
+  nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+    padding: 0 20px;
+    transition: all 0.3s ease;
+  }
+  nav.scrolled {
+    background: rgba(13, 0, 5, 0.96);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border-gold);
+    box-shadow: 0 4px 30px rgba(255, 165, 0, 0.08);
+  }
+  .nav-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+  }
+  .nav-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+  }
+  .nav-logo-icon {
+    width: 42px; height: 42px;
+    background: linear-gradient(135deg, var(--saffron), var(--gold));
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 20px;
+    box-shadow: 0 0 15px rgba(255, 165, 0, 0.4);
+    flex-shrink: 0;
+  }
+  .nav-brand-text { display: flex; flex-direction: column; line-height: 1.2; }
+  .nav-brand-title {
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 14px;
+    color: var(--gold);
+    letter-spacing: 0.5px;
+  }
+  .nav-brand-sub { font-size: 11px; color: var(--text-secondary); letter-spacing: 1px; }
+
+  .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 28px;
+    align-items: center;
+  }
+  .nav-links a {
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    transition: color 0.3s;
+    position: relative;
+  }
+  .nav-links a::after {
+    content: '';
+    position: absolute;
+    bottom: -4px; left: 0; right: 0;
+    height: 1px;
+    background: var(--gold);
+    transform: scaleX(0);
+    transition: transform 0.3s;
+  }
+  .nav-links a:hover { color: var(--gold); }
+  .nav-links a:hover::after { transform: scaleX(1); }
+
+  .nav-cta {
+    background: linear-gradient(135deg, var(--saffron), var(--red));
+    color: #fff !important;
+    padding: 8px 18px;
+    border-radius: 50px;
+    font-weight: 600 !important;
+    letter-spacing: 0.5px;
+    box-shadow: 0 4px 15px rgba(255, 107, 0, 0.35);
+    transition: transform 0.2s, box-shadow 0.2s !important;
+  }
+  .nav-cta::after { display: none !important; }
+  .nav-cta:hover { transform: translateY(-1px); box-shadow: 0 6px 20px rgba(255, 107, 0, 0.5) !important; }
+
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    padding: 6px;
+    background: none;
+    border: none;
+  }
+  .hamburger span {
+    display: block;
+    width: 24px; height: 2px;
+    background: var(--gold);
+    border-radius: 2px;
+    transition: all 0.3s;
+  }
+
+  /* Mobile Nav */
+  .mobile-menu {
+    position: fixed;
+    top: 70px; left: 0; right: 0;
+    background: rgba(13, 0, 5, 0.98);
+    backdrop-filter: blur(20px);
+    border-bottom: 1px solid var(--border-gold);
+    z-index: 999;
+    padding: 20px;
+    transform: translateY(-100%);
+    opacity: 0;
+    transition: all 0.4s ease;
+    pointer-events: none;
+  }
+  .mobile-menu.open {
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: all;
+  }
+  .mobile-menu a {
+    display: block;
+    color: var(--text-secondary);
+    text-decoration: none;
+    padding: 12px 0;
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(255,215,0,0.08);
+    transition: color 0.3s;
+  }
+  .mobile-menu a:hover { color: var(--gold); }
+
+  /* ─── HERO ─── */
+  #hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    padding: 100px 20px 60px;
+  }
+
+  .hero-mandala {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: min(700px, 95vw);
+    height: min(700px, 95vw);
+    opacity: 0.07;
+    animation: spin-slow 60s linear infinite;
+    pointer-events: none;
+  }
+  @keyframes spin-slow { to { transform: translate(-50%, -50%) rotate(360deg); } }
+
+  .hero-particles {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    pointer-events: none;
+  }
+  .particle {
+    position: absolute;
+    width: 4px; height: 4px;
+    background: var(--gold);
+    border-radius: 50%;
+    opacity: 0;
+    animation: float-up var(--dur, 6s) ease-in infinite;
+    animation-delay: var(--delay, 0s);
+    left: var(--x, 50%);
+  }
+  @keyframes float-up {
+    0% { transform: translateY(100vh) scale(0); opacity: 0; }
+    10% { opacity: 0.8; }
+    90% { opacity: 0.3; }
+    100% { transform: translateY(-100px) scale(1.5); opacity: 0; }
+  }
+
+  .hero-content { position: relative; z-index: 2; max-width: 800px; }
+
+  .hero-badge {
+    display: inline-block;
+    background: rgba(255, 107, 0, 0.15);
+    border: 1px solid rgba(255, 107, 0, 0.4);
+    color: var(--saffron-light);
+    padding: 6px 20px;
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    animation: fadeInDown 0.8s ease both;
+  }
+
+  .hero-title {
+    font-family: 'Cinzel Decorative', serif;
+    font-size: clamp(28px, 6vw, 58px);
+    line-height: 1.2;
+    color: var(--gold);
+    text-shadow: 0 0 40px rgba(255,215,0,0.4), 0 0 80px rgba(255,165,0,0.2);
+    margin-bottom: 16px;
+    animation: fadeInDown 0.8s ease 0.1s both;
+  }
+
+  .hero-tagline {
+    font-size: clamp(16px, 3vw, 22px);
+    color: var(--saffron-light);
+    font-weight: 600;
+    margin-bottom: 16px;
+    letter-spacing: 1px;
+    animation: fadeInDown 0.8s ease 0.2s both;
+  }
+
+  .hero-subtext {
+    font-size: clamp(14px, 2.5vw, 18px);
+    color: var(--text-secondary);
+    max-width: 600px;
+    margin: 0 auto 40px;
+    line-height: 1.8;
+    animation: fadeInDown 0.8s ease 0.3s both;
+  }
+
+  .hero-buttons {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+    animation: fadeInDown 0.8s ease 0.4s both;
+  }
+
+  .btn-primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: linear-gradient(135deg, var(--saffron), var(--red));
+    color: #fff;
+    padding: 14px 28px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    box-shadow: 0 6px 25px rgba(255, 107, 0, 0.4);
+    transition: all 0.3s;
+    border: none;
+    cursor: pointer;
+  }
+  .btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 35px rgba(255, 107, 0, 0.6);
+  }
+
+  .btn-secondary {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: transparent;
+    color: var(--gold);
+    padding: 14px 28px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    border: 2px solid var(--gold-dark);
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.15);
+    transition: all 0.3s;
+  }
+  .btn-secondary:hover {
+    background: rgba(255, 215, 0, 0.1);
+    border-color: var(--gold);
+    transform: translateY(-3px);
+    box-shadow: 0 0 30px rgba(255, 215, 0, 0.3);
+  }
+
+  .hero-divider {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    opacity: 0.5;
+    animation: bounce 2s ease-in-out infinite;
+  }
+  .hero-divider span { font-size: 13px; color: var(--text-muted); letter-spacing: 2px; }
+  @keyframes bounce { 0%,100%{transform:translateY(0)} 50%{transform:translateY(8px)} }
+
+  /* ─── SECTION COMMON ─── */
+  section { padding: 90px 0; position: relative; z-index: 1; }
+
+  .section-header { text-align: center; margin-bottom: 60px; }
+
+  .section-eyebrow {
+    display: inline-block;
+    color: var(--saffron);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+
+  .section-title {
+    font-family: 'Cinzel Decorative', serif;
+    font-size: clamp(24px, 4vw, 40px);
+    color: var(--gold);
+    line-height: 1.3;
+    text-shadow: 0 0 30px rgba(255,215,0,0.2);
+    margin-bottom: 16px;
+  }
+
+  .section-divider {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    justify-content: center;
+    margin: 16px 0;
+  }
+  .section-divider::before, .section-divider::after {
+    content: '';
+    flex: 1;
+    max-width: 80px;
+    height: 1px;
+    background: linear-gradient(to right, transparent, var(--gold-dark));
+  }
+  .section-divider::after { background: linear-gradient(to left, transparent, var(--gold-dark)); }
+  .section-divider-icon { color: var(--gold); font-size: 18px; }
+
+  .section-desc { color: var(--text-secondary); font-size: 16px; max-width: 580px; margin: 0 auto; }
+
+  /* ─── ABOUT ─── */
+  #about { background: linear-gradient(180deg, transparent, rgba(139,0,0,0.06) 50%, transparent); }
+
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+  }
+
+  .about-visual {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about-circle-outer {
+    width: min(340px, 85vw);
+    height: min(340px, 85vw);
+    border-radius: 50%;
+    border: 1px solid var(--border-gold);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    animation: pulse-ring 4s ease-in-out infinite;
+  }
+  @keyframes pulse-ring {
+    0%,100% { box-shadow: 0 0 0 0 rgba(255,215,0,0.1), 0 0 40px rgba(255,165,0,0.08); }
+    50% { box-shadow: 0 0 0 20px rgba(255,215,0,0), 0 0 60px rgba(255,165,0,0.15); }
+  }
+
+  .about-circle-inner {
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    border: 1px solid rgba(255,107,0,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(circle, rgba(139,0,0,0.2) 0%, transparent 70%);
+  }
+
+  .about-center-icon { font-size: 80px; text-align: center; line-height: 1; }
+
+  .about-orbiting {
+    position: absolute;
+    inset: 0;
+    animation: spin-slow 20s linear infinite;
+  }
+  .orbit-dot {
+    position: absolute;
+    width: 10px; height: 10px;
+    background: var(--gold);
+    border-radius: 50%;
+    box-shadow: 0 0 10px var(--gold);
+  }
+  .orbit-dot:nth-child(1) { top: 5%; left: 50%; transform: translateX(-50%); }
+  .orbit-dot:nth-child(2) { bottom: 5%; left: 50%; transform: translateX(-50%); }
+  .orbit-dot:nth-child(3) { left: 5%; top: 50%; transform: translateY(-50%); }
+  .orbit-dot:nth-child(4) { right: 5%; top: 50%; transform: translateY(-50%); }
+
+  .about-text h2 {
+    font-family: 'Cinzel Decorative', serif;
+    font-size: clamp(22px, 3vw, 32px);
+    color: var(--gold);
+    margin-bottom: 20px;
+  }
+
+  .about-text p {
+    color: var(--text-secondary);
+    font-size: 16px;
+    line-height: 1.9;
+    margin-bottom: 20px;
+  }
+
+  .about-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin-top: 32px;
+  }
+
+  .stat-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-gold);
+    border-radius: 12px;
+    padding: 20px 16px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .stat-card:hover { transform: translateY(-4px); box-shadow: var(--glow-gold); }
+  .stat-number {
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 28px;
+    color: var(--gold);
+    display: block;
+  }
+  .stat-label { font-size: 12px; color: var(--text-muted); margin-top: 4px; }
+
+  /* ─── SERVICES ─── */
+  #services { background: rgba(20, 0, 8, 0.5); }
+
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+  }
+
+  .service-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-gold);
+    border-radius: 16px;
+    padding: 36px 28px;
+    text-align: center;
+    transition: all 0.4s ease;
+    position: relative;
+    overflow: hidden;
+    cursor: default;
+  }
+  .service-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at 50% 0%, rgba(255,165,0,0.08) 0%, transparent 60%);
+    opacity: 0;
+    transition: opacity 0.4s;
+  }
+  .service-card:hover { transform: translateY(-8px); border-color: rgba(255,215,0,0.5); box-shadow: var(--glow-gold); }
+  .service-card:hover::before { opacity: 1; }
+
+  .service-icon {
+    font-size: 52px;
+    display: block;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+  }
+  .service-card:hover .service-icon { transform: scale(1.15) rotate(5deg); }
+
+  .service-title {
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 18px;
+    color: var(--gold);
+    margin-bottom: 12px;
+  }
+
+  .service-desc { color: var(--text-secondary); font-size: 14px; line-height: 1.8; }
+
+  .service-tag {
+    display: inline-block;
+    margin-top: 16px;
+    background: rgba(255, 107, 0, 0.12);
+    border: 1px solid rgba(255, 107, 0, 0.3);
+    color: var(--saffron-light);
+    font-size: 11px;
+    padding: 4px 14px;
+    border-radius: 50px;
+    letter-spacing: 1px;
+    font-weight: 600;
+  }
+
+  /* ─── GALLERY ─── */
+  #gallery { background: linear-gradient(180deg, transparent, rgba(100,0,30,0.07) 50%, transparent); }
+
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 16px;
+  }
+
+  .gallery-item {
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid var(--border-gold);
+    cursor: pointer;
+    background: var(--bg-layer2);
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s ease;
+  }
+  .gallery-item:first-child {
+    grid-column: span 2;
+    aspect-ratio: auto;
+    min-height: 240px;
+  }
+  .gallery-item:hover { transform: scale(1.02); border-color: rgba(255,215,0,0.5); box-shadow: 0 8px 30px rgba(255,165,0,0.2); }
+
+  .gallery-placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 24px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(139,0,0,0.3), rgba(80,20,0,0.3));
+  }
+  .gallery-placeholder .gp-icon { font-size: 42px; }
+  .gallery-placeholder .gp-label { color: var(--text-secondary); font-size: 13px; font-weight: 600; letter-spacing: 1px; }
+  .gallery-placeholder .gp-sub { color: var(--text-muted); font-size: 11px; }
+
+  .gallery-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.7), transparent 50%);
+    opacity: 0;
+    transition: opacity 0.4s;
+    display: flex;
+    align-items: flex-end;
+    padding: 20px;
+  }
+  .gallery-item:hover .gallery-overlay { opacity: 1; }
+  .gallery-overlay span { color: #fff; font-size: 13px; font-weight: 600; }
+
+  /* ─── WHY US ─── */
+  #why-us { background: rgba(20, 0, 8, 0.5); }
+
+  .why-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+
+  .why-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-gold);
+    border-radius: 16px;
+    padding: 32px 20px;
+    text-align: center;
+    transition: all 0.4s;
+    position: relative;
+    overflow: hidden;
+  }
+  .why-card::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 3px;
+    background: linear-gradient(to right, var(--saffron), var(--gold));
+    transform: scaleX(0);
+    transition: transform 0.4s;
+  }
+  .why-card:hover { transform: translateY(-6px); border-color: rgba(255,215,0,0.4); }
+  .why-card:hover::after { transform: scaleX(1); }
+
+  .why-icon { font-size: 42px; display: block; margin-bottom: 16px; }
+
+  .why-title {
+    font-weight: 700;
+    color: var(--gold);
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+
+  .why-desc { color: var(--text-muted); font-size: 13px; line-height: 1.7; }
+
+  /* ─── TESTIMONIAL STRIP ─── */
+  .testimonial-strip {
+    background: linear-gradient(135deg, rgba(139,0,0,0.2), rgba(80,20,0,0.2));
+    border: 1px solid var(--border-gold);
+    border-radius: 16px;
+    padding: 40px;
+    margin: 60px 0 0;
+    text-align: center;
+  }
+  .testimonial-quote {
+    font-size: clamp(18px, 3vw, 24px);
+    color: var(--text-primary);
+    font-style: italic;
+    line-height: 1.8;
+    margin-bottom: 20px;
+  }
+  .testimonial-quote::before { content: '"'; color: var(--gold); font-size: 3em; line-height: 0.4; vertical-align: -0.3em; font-family: serif; }
+  .testimonial-author { color: var(--saffron-light); font-weight: 700; font-size: 14px; letter-spacing: 1px; }
+
+  /* ─── CONTACT ─── */
+  #contact { background: linear-gradient(180deg, transparent, rgba(139,0,0,0.08) 50%, transparent); }
+
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: start;
+  }
+
+  .contact-info { display: flex; flex-direction: column; gap: 20px; }
+
+  .contact-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-gold);
+    border-radius: 14px;
+    padding: 24px;
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    transition: all 0.3s;
+  }
+  .contact-card:hover { border-color: rgba(255,215,0,0.4); box-shadow: var(--glow-gold); transform: translateX(4px); }
+
+  .contact-card-icon {
+    width: 48px; height: 48px;
+    border-radius: 12px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 22px;
+    flex-shrink: 0;
+  }
+  .icon-phone { background: rgba(255, 107, 0, 0.15); }
+  .icon-whatsapp { background: rgba(37, 211, 102, 0.12); }
+  .icon-location { background: rgba(255, 215, 0, 0.1); }
+
+  .contact-card-text label { display: block; font-size: 11px; color: var(--text-muted); letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 4px; }
+  .contact-card-text a, .contact-card-text span {
+    color: var(--text-primary);
+    font-size: 17px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: color 0.3s;
+    display: block;
+  }
+  .contact-card-text a:hover { color: var(--gold); }
+  .contact-card-text small { color: var(--text-muted); font-size: 12px; }
+
+  .contact-action-btns { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 8px; }
+
+  .map-container {
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid var(--border-gold);
+    box-shadow: 0 0 30px rgba(255,165,0,0.08);
+    height: 380px;
+  }
+  .map-container iframe { width: 100%; height: 100%; border: none; display: block; }
+  .map-placeholder {
+    width: 100%;
+    height: 100%;
+    background: var(--bg-layer2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    color: var(--text-secondary);
+    font-size: 14px;
+    padding: 30px;
+    text-align: center;
+  }
+  .map-placeholder .map-icon { font-size: 48px; }
+  .map-placeholder a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: linear-gradient(135deg, var(--saffron), var(--red));
+    color: #fff;
+    padding: 10px 22px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 8px;
+    transition: all 0.3s;
+  }
+  .map-placeholder a:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(255,107,0,0.4); }
+
+  /* ─── FOOTER ─── */
+  footer {
+    background: rgba(5, 0, 3, 0.95);
+    border-top: 1px solid var(--border-gold);
+    padding: 50px 20px 30px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+  .footer-logo {
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 20px;
+    color: var(--gold);
+    margin-bottom: 8px;
+  }
+  .footer-tagline { color: var(--text-muted); font-size: 14px; margin-bottom: 28px; }
+
+  .footer-social {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .social-btn {
+    width: 44px; height: 44px;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 18px;
+    text-decoration: none;
+    transition: all 0.3s;
+    border: 1px solid var(--border-gold);
+    color: var(--text-secondary);
+    background: var(--bg-card);
+  }
+  .social-btn:hover { transform: translateY(-4px); border-color: var(--gold); color: var(--gold); box-shadow: var(--glow-gold); }
+  .social-btn.wa:hover { color: #25D366; border-color: #25D366; box-shadow: 0 0 20px rgba(37,211,102,0.3); }
+  .social-btn.fb:hover { color: #4267B2; border-color: #4267B2; box-shadow: 0 0 20px rgba(66,103,178,0.3); }
+  .social-btn.yt:hover { color: #FF0000; border-color: #FF0000; box-shadow: 0 0 20px rgba(255,0,0,0.3); }
+
+  .footer-links {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+  }
+  .footer-links a { color: var(--text-muted); font-size: 13px; text-decoration: none; transition: color 0.3s; }
+  .footer-links a:hover { color: var(--gold); }
+
+  .footer-divider { border: none; border-top: 1px solid rgba(255,215,0,0.08); margin: 20px 0; }
+  .footer-copy { color: var(--text-muted); font-size: 12px; line-height: 1.8; }
+  .footer-copy span { color: var(--gold); }
+
+  /* ─── FLOATING WA BUTTON ─── */
+  .float-wa {
+    position: fixed;
+    bottom: 28px;
+    right: 24px;
+    z-index: 900;
+    width: 58px; height: 58px;
+    background: #25D366;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 26px;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0 4px 20px rgba(37, 211, 102, 0.5);
+    transition: all 0.3s;
+    animation: wa-pulse 2.5s ease-in-out infinite;
+  }
+  .float-wa:hover { transform: scale(1.12); box-shadow: 0 6px 30px rgba(37, 211, 102, 0.7); }
+  @keyframes wa-pulse {
+    0%,100% { box-shadow: 0 4px 20px rgba(37,211,102,0.5), 0 0 0 0 rgba(37,211,102,0.3); }
+    50% { box-shadow: 0 4px 20px rgba(37,211,102,0.5), 0 0 0 12px rgba(37,211,102,0); }
+  }
+
+  .float-wa-label {
+    position: absolute;
+    right: 70px;
+    background: rgba(13, 0, 5, 0.95);
+    border: 1px solid rgba(37,211,102,0.3);
+    color: #25D366;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 700;
+    white-space: nowrap;
+    opacity: 0;
+    transform: translateX(10px);
+    transition: all 0.3s;
+    pointer-events: none;
+  }
+  .float-wa:hover .float-wa-label { opacity: 1; transform: translateX(0); }
+
+  /* ─── MUSIC TOGGLE ─── */
+  .music-toggle {
+    position: fixed;
+    bottom: 28px;
+    left: 24px;
+    z-index: 900;
+    width: 50px; height: 50px;
+    background: rgba(13, 0, 5, 0.9);
+    border: 1px solid var(--border-gold);
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 20px;
+    color: var(--gold);
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0 4px 15px rgba(255,165,0,0.2);
+  }
+  .music-toggle:hover { box-shadow: var(--glow-gold); transform: scale(1.1); }
+  .music-toggle.playing { animation: music-pulse 1s ease-in-out infinite alternate; }
+  @keyframes music-pulse {
+    from { box-shadow: 0 0 10px rgba(255,165,0,0.2); }
+    to { box-shadow: 0 0 25px rgba(255,165,0,0.6), 0 0 50px rgba(255,165,0,0.2); }
+  }
+
+  /* ─── SCROLL ANIMATIONS ─── */
+  .reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+  }
+  .reveal.visible { opacity: 1; transform: translateY(0); }
+  .reveal-left { opacity: 0; transform: translateX(-40px); transition: opacity 0.7s ease, transform 0.7s ease; }
+  .reveal-left.visible { opacity: 1; transform: translateX(0); }
+  .reveal-right { opacity: 0; transform: translateX(40px); transition: opacity 0.7s ease, transform 0.7s ease; }
+  .reveal-right.visible { opacity: 1; transform: translateX(0); }
+
+  @keyframes fadeInDown {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  /* ─── DECORATIVE BAND ─── */
+  .decorative-band {
+    background: linear-gradient(90deg, transparent, rgba(255,107,0,0.08), rgba(255,215,0,0.12), rgba(255,107,0,0.08), transparent);
+    border-top: 1px solid rgba(255,215,0,0.1);
+    border-bottom: 1px solid rgba(255,215,0,0.1);
+    padding: 18px 0;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+  }
+  .ticker-wrap {
+    display: flex;
+    gap: 0;
+    white-space: nowrap;
+    animation: ticker 30s linear infinite;
+    width: max-content;
+  }
+  .ticker-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 16px;
+    padding: 0 30px;
+    color: var(--text-secondary);
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .ticker-item .dot { color: var(--gold); font-size: 18px; }
+  @keyframes ticker { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
+
+  /* ─── RESPONSIVE ─── */
+  @media (max-width: 900px) {
+    .nav-links { display: none; }
+    .hamburger { display: flex; }
+    .about-grid, .contact-grid { grid-template-columns: 1fr; }
+    .about-visual { display: none; }
+    .gallery-grid { grid-template-columns: repeat(2, 1fr); }
+    .gallery-item:first-child { grid-column: span 2; }
+    .about-stats { grid-template-columns: repeat(3, 1fr); }
+  }
+
+  @media (max-width: 600px) {
+    section { padding: 60px 0; }
+    .gallery-grid { grid-template-columns: 1fr 1fr; }
+    .gallery-item:first-child { grid-column: span 2; }
+    .why-grid { grid-template-columns: 1fr 1fr; }
+    .about-stats { grid-template-columns: repeat(3, 1fr); }
+    .hero-buttons { gap: 12px; }
+    .btn-primary, .btn-secondary { padding: 12px 20px; font-size: 14px; }
+    .services-grid { grid-template-columns: 1fr; }
+  }
+
+  /* ─── LOADER ─── */
+  #loader {
+    position: fixed;
+    inset: 0;
+    background: var(--bg-dark);
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    transition: opacity 0.6s ease;
+  }
+  #loader.fade-out { opacity: 0; pointer-events: none; }
+  .loader-om { font-size: 80px; animation: loader-pulse 1.5s ease-in-out infinite; }
+  @keyframes loader-pulse { 0%,100%{opacity:0.3;transform:scale(0.9)} 50%{opacity:1;transform:scale(1.1)} }
+  .loader-text { font-family: 'Cinzel Decorative', serif; color: var(--gold); font-size: 16px; letter-spacing: 3px; }
+  .loader-bar {
+    width: 200px; height: 2px;
+    background: rgba(255,215,0,0.1);
+    border-radius: 2px;
+    overflow: hidden;
+  }
+  .loader-bar-fill {
+    height: 100%;
+    background: linear-gradient(to right, var(--saffron), var(--gold));
+    border-radius: 2px;
+    animation: loader-bar 1.8s ease forwards;
+  }
+  @keyframes loader-bar { from{width:0} to{width:100%} }
+
+  /* ─── BACK TO TOP ─── */
+  .back-to-top {
+    position: fixed;
+    bottom: 96px;
+    right: 24px;
+    z-index: 899;
+    width: 42px; height: 42px;
+    background: var(--bg-card);
+    border: 1px solid var(--border-gold);
+    border-radius: 50%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    color: var(--gold);
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s;
+    text-decoration: none;
+  }
+  .back-to-top.show { display: flex; }
+  .back-to-top:hover { background: rgba(255,215,0,0.1); box-shadow: var(--glow-gold); transform: translateY(-3px); }
+
+  /* Utility */
+  .text-gold { color: var(--gold); }
+  .text-saffron { color: var(--saffron-light); }
+</style>
+</head>
+<body>
+
+<!-- LOADER -->
+<div id="loader">
+  <div class="loader-om">🕉️</div>
+  <div class="loader-text">JAI MATA DI</div>
+  <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+</div>
+
+<!-- FLOATING WA -->
+<a href="https://wa.me/919253878882?text=Namaste!%20Mujhe%20Jagran%20%2F%20Sound%20Service%20ke%20liye%20booking%20karni%20hai." class="float-wa" target="_blank" rel="noopener" aria-label="WhatsApp">
+  <i class="fab fa-whatsapp"></i>
+  <span class="float-wa-label">Book on WhatsApp</span>
+</a>
+
+<!-- MUSIC TOGGLE -->
+<button class="music-toggle" id="musicToggle" title="Bhakti Music Toggle" aria-label="Toggle music">🔇</button>
+
+<!-- BACK TO TOP -->
+<a href="#hero" class="back-to-top" id="backToTop" aria-label="Back to top"><i class="fas fa-chevron-up"></i></a>
+
+<!-- NAVBAR -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="#hero" class="nav-brand">
+      <div class="nav-logo-icon">🙏</div>
+      <div class="nav-brand-text">
+        <span class="nav-brand-title">Gulshan Sound</span>
+        <span class="nav-brand-sub">Jagran Party · Palwal</span>
+      </div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#about">Hamare Baare Mein</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#why-us">Kyun Chunein</a></li>
+      <li><a href="tel:9253878882" class="nav-cta">📞 Call Now</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#about" onclick="closeMobileMenu()">Hamare Baare Mein</a>
+  <a href="#services" onclick="closeMobileMenu()">Services</a>
+  <a href="#gallery" onclick="closeMobileMenu()">Gallery</a>
+  <a href="#why-us" onclick="closeMobileMenu()">Kyun Chunein</a>
+  <a href="#contact" onclick="closeMobileMenu()">Contact</a>
+  <a href="tel:9253878882" style="color: var(--saffron-light); margin-top: 8px; font-weight: 700;">📞 Call: 9253878882</a>
+</div>
+
+<!-- HERO -->
+<section id="hero">
+  <svg class="hero-mandala" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="250" cy="250" r="240" stroke="#FFD700" stroke-width="0.5"/>
+    <circle cx="250" cy="250" r="200" stroke="#FF6B00" stroke-width="0.5"/>
+    <circle cx="250" cy="250" r="160" stroke="#FFD700" stroke-width="0.5"/>
+    <circle cx="250" cy="250" r="120" stroke="#FF6B00" stroke-width="0.5"/>
+    <circle cx="250" cy="250" r="80" stroke="#FFD700" stroke-width="0.5"/>
+    <circle cx="250" cy="250" r="40" stroke="#FF6B00" stroke-width="0.5"/>
+    <g stroke="#FFD700" stroke-width="0.5">
+      <line x1="250" y1="10" x2="250" y2="490"/>
+      <line x1="10" y1="250" x2="490" y2="250"/>
+      <line x1="80" y1="80" x2="420" y2="420"/>
+      <line x1="420" y1="80" x2="80" y2="420"/>
+      <line x1="50" y1="150" x2="450" y2="350"/>
+      <line x1="50" y1="350" x2="450" y2="150"/>
+      <line x1="150" y1="50" x2="350" y2="450"/>
+      <line x1="350" y1="50" x2="150" y2="450"/>
+    </g>
+    <polygon points="250,30 290,120 380,120 310,180 340,270 250,210 160,270 190,180 120,120 210,120" stroke="#FFD700" stroke-width="0.5" fill="none"/>
+    <polygon points="250,470 210,380 120,380 190,320 160,230 250,290 340,230 310,320 380,380 290,380" stroke="#FF6B00" stroke-width="0.5" fill="none"/>
+  </svg>
+  <div class="hero-particles" id="particlesContainer"></div>
+  <div class="hero-content">
+    <div class="hero-badge">✨ Palwal, Haryana ka Nambari Choice ✨</div>
+    <h1 class="hero-title">Gulshan Sound Service<br>&amp; Jagran Party 🙏</h1>
+    <p class="hero-tagline">Palwal ka Trusted Jagran &amp; Sound Service</p>
+    <p class="hero-subtext">Mata Rani ka Jagran ho ya koi bhi function — Sound aur Bhakti dono full power mein! Mata Rani ki kripa se har event safal banate hain 🙏✨</p>
+    <div class="hero-buttons">
+      <a href="tel:9253878882" class="btn-primary">📞 Call Now: 9253878882</a>
+      <a href="https://wa.me/919253878882?text=Namaste!%20Booking%20karni%20hai." class="btn-secondary" target="_blank" rel="noopener">💬 WhatsApp Booking</a>
+    </div>
+    <div class="hero-divider">
+      <span>Neeche Scroll Karein</span>
+      <i class="fas fa-chevron-down" style="color: var(--gold);"></i>
+    </div>
+  </div>
+</section>
+
+<!-- TICKER BAND -->
+<div class="decorative-band">
+  <div class="ticker-wrap" id="ticker">
+    <span class="ticker-item"><span class="dot">🪔</span> Mata Ki Chowki Palwal</span>
+    <span class="ticker-item"><span class="dot">🌸</span> Bhagwati Jagran Booking Open</span>
+    <span class="ticker-item"><span class="dot">🔊</span> Professional Sound Service</span>
+    <span class="ticker-item"><span class="dot">🎉</span> Wedding &amp; Event Sound Setup</span>
+    <span class="ticker-item"><span class="dot">💡</span> Stage &amp; Lighting Available</span>
+    <span class="ticker-item"><span class="dot">📞</span> Call: 9253878882</span>
+    <span class="ticker-item"><span class="dot">🙏</span> Jai Mata Di!</span>
+    <span class="ticker-item"><span class="dot">🪔</span> Mata Ki Chowki Palwal</span>
+    <span class="ticker-item"><span class="dot">🌸</span> Bhagwati Jagran Booking Open</span>
+    <span class="ticker-item"><span class="dot">🔊</span> Professional Sound Service</span>
+    <span class="ticker-item"><span class="dot">🎉</span> Wedding &amp; Event Sound Setup</span>
+    <span class="ticker-item"><span class="dot">💡</span> Stage &amp; Lighting Available</span>
+    <span class="ticker-item"><span class="dot">📞</span> Call: 9253878882</span>
+    <span class="ticker-item"><span class="dot">🙏</span> Jai Mata Di!</span>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-visual reveal-left">
+        <div class="about-circle-outer">
+          <div class="about-orbiting">
+            <div class="orbit-dot"></div>
+            <div class="orbit-dot"></div>
+            <div class="orbit-dot"></div>
+            <div class="orbit-dot"></div>
+          </div>
+          <div class="about-circle-inner">
+            <div class="about-center-icon">🪔</div>
+          </div>
+        </div>
+      </div>
+      <div class="about-text reveal-right">
+        <div class="section-eyebrow">Hamare Baare Mein</div>
+        <h2>Bhakti aur Sound ka Perfect Combination 🙏</h2>
+        <p>Hum Palwal ke trusted Jagran Party aur Sound Service providers hain. Mata Ki Chowki, Bhagwati Jagran, Shaadi aur har tarah ke function ke liye hum <strong style="color: var(--gold);">professional sound aur bhakti program</strong> provide karte hain.</p>
+        <p>Hamare paas experienced artists, top-quality sound equipment, aur poori devotion hai — taaki aapka har event ek yaadgaar anubhav ban sake. <em style="color: var(--saffron-light);">"Mata Rani ki kripa se har event safal banate hain 🙏"</em></p>
+        <div class="about-stats">
+          <div class="stat-card">
+            <span class="stat-number">500+</span>
+            <span class="stat-label">Events Done</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">10+</span>
+            <span class="stat-label">Saal ka Anubhav</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Satisfied Clients</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-eyebrow">Humari Services</div>
+      <h2 class="section-title">Kya Kya Karte Hain Hum? 🌟</h2>
+      <div class="section-divider"><span class="section-divider-icon">🙏</span></div>
+      <p class="section-desc">Bhakti se lekar baraat tak — har jagah aapki awaaz hum uthate hain</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card reveal" style="transition-delay: 0.05s">
+        <span class="service-icon">🙏</span>
+        <h3 class="service-title">Mata Ki Chowki</h3>
+        <p class="service-desc">Mata Rani ke bhajan, dhun, aur bhakti ke sath poora ghar pavitra mahaul mein dub jaata hai. Dil ko choo lenewala anubhav!</p>
+        <span class="service-tag">MOST POPULAR</span>
+      </div>
+      <div class="service-card reveal" style="transition-delay: 0.10s">
+        <span class="service-icon">🌸</span>
+        <h3 class="service-title">Bhagwati Jagran</h3>
+        <p class="service-desc">Raat bhar ki bhakti, live jagran performance, aur Mata Rani ke charno mein samarpan — ek poori raat ka spiritual safar.</p>
+        <span class="service-tag">SIGNATURE EVENT</span>
+      </div>
+      <div class="service-card reveal" style="transition-delay: 0.15s">
+        <span class="service-icon">🔊</span>
+        <h3 class="service-title">Sound Service</h3>
+        <p class="service-desc">High quality speakers, amplifiers, aur modern sound setup. Chahe chota function ho ya bada — awaaz crystal clear rahegi.</p>
+        <span class="service-tag">PROFESSIONAL</span>
+      </div>
+      <div class="service-card reveal" style="transition-delay: 0.20s">
+        <span class="service-icon">🎉</span>
+        <h3 class="service-title">Wedding Sound</h3>
+        <p class="service-desc">Baraat ho ya reception — humara DJ aur sound system aapki shaadi ko ek filmi experience bana deta hai. Full power guaranteed!</p>
+        <span class="service-tag">PREMIUM</span>
+      </div>
+      <div class="service-card reveal" style="transition-delay: 0.25s">
+        <span class="service-icon">💡</span>
+        <h3 class="service-title">Stage &amp; Lighting</h3>
+        <p class="service-desc">Colorful LED lights, decorative stage setup, aur spotlights — har function mein ek filmi chamak laate hain hum.</p>
+        <span class="service-tag">ADD-ON</span>
+      </div>
+      <div class="service-card reveal" style="transition-delay: 0.30s; background: linear-gradient(135deg, rgba(139,0,0,0.25), rgba(80,20,0,0.25));">
+        <span class="service-icon">📞</span>
+        <h3 class="service-title">Custom Booking</h3>
+        <p class="service-desc">Koi bhi khaas zaroorat? Call karein aur hum aapki zaroorat ke hisaab se best package taiyaar karenge. Affordable rates guaranteed!</p>
+        <a href="tel:9253878882" class="service-tag" style="color: var(--gold); border-color: rgba(255,215,0,0.4); background: rgba(255,215,0,0.08); cursor: pointer; text-decoration: none;">BOOK NOW →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-eyebrow">Hamare Events</div>
+      <h2 class="section-title">Jhalak Lein Hamare Kaam Ki 📸</h2>
+      <div class="section-divider"><span class="section-divider-icon">🌸</span></div>
+      <p class="section-desc">Ek jhalksi — hamare events mein chhupe jadoo ki</p>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-item reveal" style="transition-delay:0.05s">
+        <div class="gallery-placeholder" style="background: linear-gradient(135deg, rgba(139,0,0,0.4), rgba(80,20,0,0.4));">
+          <span class="gp-icon">🪔</span>
+          <span class="gp-label">Mata Ki Chowki</span>
+          <span class="gp-sub">Bhakti ki roshni se sajaa mahaul</span>
+        </div>
+        <div class="gallery-overlay"><span>Mata Ki Chowki Setup 🙏</span></div>
+      </div>
+      <div class="gallery-item reveal" style="transition-delay:0.10s">
+        <div class="gallery-placeholder" style="background: linear-gradient(135deg, rgba(80,20,0,0.4), rgba(139,0,0,0.4));">
+          <span class="gp-icon">🎤</span>
+          <span class="gp-label">Live Jagran</span>
+          <span class="gp-sub">Raat bhar ka bhakti sangeet</span>
+        </div>
+        <div class="gallery-overlay"><span>Bhagwati Jagran Night 🌸</span></div>
+      </div>
+      <div class="gallery-item reveal" style="transition-delay:0.15s">
+        <div class="gallery-placeholder" style="background: linear-gradient(135deg, rgba(100,50,0,0.4), rgba(80,0,20,0.4));">
+          <span class="gp-icon">🔊</span>
+          <span class="gp-label">Sound System</span>
+          <span class="gp-sub">Professional audio setup</span>
+        </div>
+        <div class="gallery-overlay"><span>High-Quality Sound 🔊</span></div>
+      </div>
+      <div class="gallery-item reveal" style="transition-delay:0.20s">
+        <div class="gallery-placeholder" style="background: linear-gradient(135deg, rgba(60,0,60,0.4), rgba(139,0,0,0.4));">
+          <span class="gp-icon">💡</span>
+          <span class="gp-label">Stage Lighting</span>
+          <span class="gp-sub">LED aur decoration setup</span>
+        </div>
+        <div class="gallery-overlay"><span>Stage & Lights 💡</span></div>
+      </div>
+      <div class="gallery-item reveal" style="transition-delay:0.25s">
+        <div class="gallery-placeholder" style="background: linear-gradient(135deg, rgba(139,0,0,0.4), rgba(60,0,60,0.4));">
+          <span class="gp-icon">🎉</span>
+          <span class="gp-label">Wedding Event</span>
+          <span class="gp-sub">Baraat aur reception sound</span>
+        </div>
+        <div class="gallery-overlay"><span>Wedding Sound 🎉</span></div>
+      </div>
+      <div class="gallery-item reveal" style="transition-delay:0.30s">
+        <div class="gallery-placeholder" style="background: linear-gradient(135deg, rgba(80,20,0,0.4), rgba(100,0,30,0.4));">
+          <span class="gp-icon">🎊</span>
+          <span class="gp-label">Crowd Moments</span>
+          <span class="gp-sub">Jashan aur bhakti ka sangam</span>
+        </div>
+        <div class="gallery-overlay"><span>Happy Moments 🎊</span></div>
+      </div>
+    </div>
+    <div style="text-align: center; margin-top: 36px;" class="reveal">
+      <a href="https://wa.me/919253878882?text=Namaste!%20Kya%20aap%20apne%20events%20ki%20photos%20share%20kar%20sakte%20hain?" class="btn-secondary" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 8px;">
+        📷 Aur Photos Dekhein — WhatsApp Par
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section id="why-us">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-eyebrow">Kyun Chunein Hume</div>
+      <h2 class="section-title">Gulshan Ji Par Bharosa Kyun? 🤝</h2>
+      <div class="section-divider"><span class="section-divider-icon">🔊</span></div>
+      <p class="section-desc">Palwal aur aas-paas ke logon ka vishwas — yahi humari asli taqat hai</p>
+    </div>
+    <div class="why-grid">
+      <div class="why-card reveal" style="transition-delay:0.05s">
+        <span class="why-icon">🙏</span>
+        <div class="why-title">Shuddh Bhakti Atmosphere</div>
+        <p class="why-desc">Mata Rani ki bhakti mein koi compromise nahi. Poora mahaul pavitra aur spiritual.</p>
+      </div>
+      <div class="why-card reveal" style="transition-delay:0.10s">
+        <span class="why-icon">🔊</span>
+        <div class="why-title">High Quality Sound</div>
+        <p class="why-desc">Top-brand speakers, crystal-clear audio. Chahe bada lawn ho ya choti gali.</p>
+      </div>
+      <div class="why-card reveal" style="transition-delay:0.15s">
+        <span class="why-icon">💰</span>
+        <div class="why-title">Affordable Rates</div>
+        <p class="why-desc">Budget-friendly packages. Aur quality mein koi compromise nahi — pakka!</p>
+      </div>
+      <div class="why-card reveal" style="transition-delay:0.20s">
+        <span class="why-icon">👨‍🔧</span>
+        <div class="why-title">Experienced Team</div>
+        <p class="why-desc">10+ saal ka anubhav. Har jagran, har event mein puri dedication.</p>
+      </div>
+      <div class="why-card reveal" style="transition-delay:0.25s">
+        <span class="why-icon">⏱️</span>
+        <div class="why-title">On-Time Setup</div>
+        <p class="why-desc">Samay ki kadr karte hain. Setup kabhi late nahi — guaranteed on time!</p>
+      </div>
+      <div class="why-card reveal" style="transition-delay:0.30s">
+        <span class="why-icon">📍</span>
+        <div class="why-title">Local Roots</div>
+        <p class="why-desc">Palwal ka apna — local understanding, local trust. Aapko paraya nahi samjhenge.</p>
+      </div>
+    </div>
+    <div class="testimonial-strip reveal" style="margin-top: 40px;">
+      <p class="testimonial-quote">Gulshan bhai ka jagran humari zindagi ka sabse yaadgaar event tha. Sound itna accha tha ki puri colony jhoom uthi. Mata Rani ki kripa se sab safal raha!</p>
+      <span class="testimonial-author">— Ramesh Kumar, Palwal · Mata Ki Chowki Booking ⭐⭐⭐⭐⭐</span>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-eyebrow">Sampark Karein</div>
+      <h2 class="section-title">Book Karo — Aaj Hi! 📞</h2>
+      <div class="section-divider"><span class="section-divider-icon">🪔</span></div>
+      <p class="section-desc">Book karo aur pao ek yaadgaar Jagran experience. Hum yahan hain, aapke liye!</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info reveal-left">
+        <div class="contact-card">
+          <div class="contact-card-icon icon-phone">📞</div>
+          <div class="contact-card-text">
+            <label>Phone Number</label>
+            <a href="tel:9253878882">9253878882</a>
+            <small>Subah 8 baje se raat 10 baje tak</small>
+          </div>
+        </div>
+        <div class="contact-card">
+          <div class="contact-card-icon icon-whatsapp">💬</div>
+          <div class="contact-card-text">
+            <label>WhatsApp Booking</label>
+            <span>9253878882</span>
+            <small>Message karein — jaldi response milega</small>
+            <div class="contact-action-btns" style="margin-top: 10px;">
+              <a href="https://wa.me/919253878882?text=Namaste!%20Mujhe%20Jagran%20%2F%20Sound%20Service%20ke%20liye%20booking%20karni%20hai." class="btn-primary" target="_blank" rel="noopener" style="padding: 10px 20px; font-size: 14px;">
+                <i class="fab fa-whatsapp"></i> WhatsApp Now
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="contact-card">
+          <div class="contact-card-icon icon-location">📍</div>
+          <div class="contact-card-text">
+            <label>Location</label>
+            <span>Palwal, Haryana, India</span>
+            <small>Palwal aur nearby areas mein service available</small>
+          </div>
+        </div>
+        <div style="background: linear-gradient(135deg, rgba(139,0,0,0.2), rgba(80,20,0,0.2)); border: 1px solid var(--border-gold); border-radius: 14px; padding: 24px; text-align: center;">
+          <p style="color: var(--text-secondary); font-size: 15px; line-height: 1.8; margin-bottom: 16px;">
+            🌸 <em>"Bhakti aur Sound ka perfect combination — Gulshan Ji ke saath apna har event special banao!"</em>
+          </p>
+          <a href="tel:9253878882" class="btn-primary" style="display: inline-flex;">📞 Abhi Call Karein</a>
+        </div>
+      </div>
+      <div class="reveal-right">
+        <div class="map-container">
+          <div class="map-placeholder">
+            <span class="map-icon">🗺️</span>
+            <p style="color: var(--text-secondary);">Palwal, Haryana, India</p>
+            <p style="color: var(--text-muted); font-size: 13px;">Hamare paas aane ke liye ya location dekhne ke liye Google Maps open karein</p>
+            <a href="https://maps.google.com/?q=Palwal,Haryana,India" target="_blank" rel="noopener">
+              <i class="fas fa-map-marker-alt"></i> Google Maps Mein Dekho
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container" style="max-width: 700px;">
+    <div class="footer-logo">🙏 Gulshan Sound Service &amp; Jagran Party</div>
+    <p class="footer-tagline">Palwal ka Trusted Bhakti aur Sound Service Provider</p>
+    <div class="footer-social">
+      <a href="https://wa.me/919253878882" class="social-btn wa" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://facebook.com" class="social-btn fb" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://youtube.com" class="social-btn yt" target="_blank" rel="noopener" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+    </div>
+    <div class="footer-links">
+      <a href="#about">Hamare Baare Mein</a>
+      <a href="#services">Services</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#why-us">Kyun Chunein</a>
+      <a href="#contact">Contact</a>
+      <a href="tel:9253878882">📞 9253878882</a>
+    </div>
+    <hr class="footer-divider">
+    <p class="footer-copy">
+      © 2025 <span>Gulshan Sound Service &amp; Jagran Party</span> — Palwal, Haryana<br>
+      SEO: Jagran Party Palwal · Mata Ki Chowki Palwal · Sound Service Palwal · Bhagwati Jagran Palwal<br>
+      <span style="font-size: 11px; color: var(--text-muted);">Mata Rani ki kripa se har event safal banate hain 🙏</span>
+    </p>
+  </div>
+</footer>
+
+<script>
+  /* LOADER */
+  window.addEventListener('load', () => {
+    setTimeout(() => {
+      const loader = document.getElementById('loader');
+      loader.classList.add('fade-out');
+      setTimeout(() => loader.remove(), 700);
+    }, 1800);
+  });
+
+  /* NAVBAR SCROLL */
+  const navbar = document.getElementById('navbar');
+  const backToTop = document.getElementById('backToTop');
+  window.addEventListener('scroll', () => {
+    const scrolled = window.scrollY > 60;
+    navbar.classList.toggle('scrolled', scrolled);
+    backToTop.classList.toggle('show', window.scrollY > 400);
+  });
+
+  /* HAMBURGER */
+  const hamburger = document.getElementById('hamburger');
+  const mobileMenu = document.getElementById('mobileMenu');
+  hamburger.addEventListener('click', () => {
+    mobileMenu.classList.toggle('open');
+    const spans = hamburger.querySelectorAll('span');
+    spans[0].style.transform = mobileMenu.classList.contains('open') ? 'rotate(45deg) translate(5px, 5px)' : '';
+    spans[1].style.opacity = mobileMenu.classList.contains('open') ? '0' : '1';
+    spans[2].style.transform = mobileMenu.classList.contains('open') ? 'rotate(-45deg) translate(5px, -5px)' : '';
+  });
+  function closeMobileMenu() {
+    mobileMenu.classList.remove('open');
+    const spans = hamburger.querySelectorAll('span');
+    spans.forEach(s => { s.style.transform = ''; s.style.opacity = '1'; });
+  }
+
+  /* PARTICLES */
+  const container = document.getElementById('particlesContainer');
+  for (let i = 0; i < 22; i++) {
+    const p = document.createElement('div');
+    p.className = 'particle';
+    p.style.setProperty('--x', Math.random() * 100 + '%');
+    p.style.setProperty('--dur', (4 + Math.random() * 6) + 's');
+    p.style.setProperty('--delay', (Math.random() * 8) + 's');
+    const size = (2 + Math.random() * 4) + 'px';
+    p.style.width = p.style.height = size;
+    const colors = ['#FFD700', '#FF6B00', '#FF8C42', '#FFE566'];
+    p.style.background = colors[Math.floor(Math.random() * colors.length)];
+    container.appendChild(p);
+  }
+
+  /* SCROLL REVEAL */
+  const reveals = document.querySelectorAll('.reveal, .reveal-left, .reveal-right');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry, i) => {
+      if (entry.isIntersecting) {
+        const el = entry.target;
+        const delay = parseFloat(el.style.transitionDelay || '0');
+        setTimeout(() => el.classList.add('visible'), delay * 1000);
+        observer.unobserve(el);
+      }
+    });
+  }, { threshold: 0.12 });
+  reveals.forEach(el => observer.observe(el));
+
+  /* MUSIC TOGGLE */
+  const musicBtn = document.getElementById('musicToggle');
+  let audio = null;
+  let playing = false;
+  musicBtn.addEventListener('click', () => {
+    if (!audio) {
+      audio = new Audio('https://www.soundjay.com/misc/sounds/bell-ringing-05.mp3');
+      audio.loop = true;
+      audio.volume = 0.3;
+    }
+    if (playing) {
+      audio.pause();
+      playing = false;
+      musicBtn.textContent = '🔇';
+      musicBtn.classList.remove('playing');
+      musicBtn.title = 'Bhakti Music Chalaayein';
+    } else {
+      audio.play().catch(() => {
+        musicBtn.title = 'Music unavailable in browser';
+      });
+      playing = true;
+      musicBtn.textContent = '🎵';
+      musicBtn.classList.add('playing');
+    }
+  });
+</script>
+</body>
+</html>
